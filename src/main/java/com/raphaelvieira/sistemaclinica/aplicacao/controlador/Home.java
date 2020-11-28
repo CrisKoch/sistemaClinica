@@ -36,7 +36,10 @@ public class Home {
 		  
 		  return "cadastroPaciente";
 	  }
-	  
+	  @RequestMapping("/cadastroSecretaria")
+	  public String cadastroSecretaria() {
+		  return "cadastroSecretaria";
+	  }
 	  
 	  @RequestMapping("/cadastroUsuario")
 	  public String cadastroUsuario() {
